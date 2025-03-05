@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body, html {
+    background-color: #03045e;
+}
+
+* {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-weight: 800;
+}
+
+.option-selected {
+    border: 4px solid #caf0f8;
+    color: oklch(0.809 0.105 251.813);
+    background-color: oklch(0.282 0.091 267.935);
+}
+
+.option-selected::hover {
+    cursor: pointer;
+    transform: translateY(3px);
+    box-shadow: 0px 0px;
+}
